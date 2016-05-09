@@ -15,7 +15,6 @@ footer {
 }
 
 footer {
-    color: #494C5C;
     background-color: #123652
 }
 
@@ -32,7 +31,6 @@ footer {
     background-color: #042027;
     color: #FFFFFF;
 }
-
 
 body {
     /* Move down content because of fixed navbar at top */
@@ -71,7 +69,7 @@ footer p {
     background-size: cover;
 }
 
-.jumbotron small {
+.jumbotron h2 {
     color: #496D89;
 }
 
@@ -140,6 +138,20 @@ figure {
     opacity: .25;
 }
 
+#jumbosmall {
+    font-size: 90%;
+    background-color: none;
+}
+
+section {
+    padding-top: 60px;
+}
+
+#t1, #t2, #t3, #t4, #t5, #t6 {
+    font-weight: bold;
+display: inline;
+}
+
 @media only screen and (max-width: 37.5em) {
     #gallery {
         padding-left: 0 auto;
@@ -147,6 +159,5 @@ figure {
     footer {
         font-size: 80%;
         color: #FFFFFF;
-        
     }
 }
