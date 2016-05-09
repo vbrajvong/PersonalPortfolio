@@ -1,0 +1,152 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #222222;
+    color: #9d9d9d;
+    text-align: center;
+    padding: 15px;
+}
+
+footer {
+    color: #494C5C;
+    background-color: #123652
+}
+
+.navbar-inverse {
+    background-color: #123652;
+    border-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .btn {
+    background-color: #042027;
+    color: #FFFFFF;
+}
+
+
+body {
+    /* Move down content because of fixed navbar at top */
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    background-image: linear-gradient(#FFFFFF, #718EA4);
+    background-repeat: none;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #123652;
+}
+
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
+}
+
+h3 {
+    display: inline;
+}
+
+footer p {
+    font-size: 80%;
+}
+
+.jumbotron {
+    margin-top: 15px;
+    padding-bottom: 25px;
+    color: #042037;
+    text-align: center;
+    text-shadow: #FBE7D4 3px 3px 4px;
+    background-image: url("images/jumbotronbg.png");
+    background-size: cover;
+}
+
+.jumbotron small {
+    color: #496D89;
+}
+
+main div {
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+#techskills {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#gallery {
+    position: relative;
+    padding-left: 100px;
+}
+
+#gallery ul {
+    width: 250px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border-style: none;
+}
+
+#gallery a {
+    text-decoration: none;
+    color: #333;
+    font-style: italic;
+}
+
+#gallery span {
+    display: none;
+    transition: opacity 3s ease-in-out;
+}
+
+#aboutdiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#gallery a:hover span {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    text-align: center;
+}
+
+figure {
+    position: absolute;
+    left: 350px;
+    top: 10px;
+    text-align: center;
+    opacity: .25;
+}
+
+@media only screen and (max-width: 37.5em) {
+    #gallery {
+        padding-left: 0 auto;
+    }
+    footer {
+        font-size: 80%;
+        color: #FFFFFF;
+        
+    }
+}
